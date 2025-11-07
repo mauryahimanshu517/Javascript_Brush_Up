@@ -284,16 +284,28 @@
 
 // type password 3 times
 
-for(let i=0;i<3;i++){
-    let x=prompt("enter password")
-    if(x==123){
-        console.log("correct password")
-        break
+// for(let i=0;i<3;i++){
+//     let x=prompt("enter password")
+//     if(x==123){
+//         console.log("correct password")
+//         break
+//     }
+//     else{
+//         console.log("type password again")
+//     }
+// }
+
+//closer
+var a=10
+
+function x(){
+    let b=20
+    function y(){
+console.log(b,a)
     }
-    else{
-        console.log("type password again")
-    }
+    y()
 }
+x()
 
 
 
