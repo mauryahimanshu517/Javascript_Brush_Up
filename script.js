@@ -296,16 +296,16 @@
 // }
 
 //closer
-var a=10
+// var a=10
 
-function x(){
-    let b=20
-    function y(){
-console.log(b,a)
-    }
-    y()
-}
-x()
+// function x(){
+//     let b=20
+//     function y(){
+// console.log(b,a)
+//     }
+//     y()
+// }
+// x()
 
 
 
