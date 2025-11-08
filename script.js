@@ -307,7 +307,26 @@
 // }
 // x()
 
+// 6 1+2+3=6
 
+//Perfect number
+
+let number=8128
+let sum=0
+
+for(let i=1;i<number;i++){
+    if(number%i==0){
+        sum=sum+i
+    }
+}
+console.log(sum,number)
+
+if(sum==number){
+    console.log("true")
+}
+else{
+    console.log("false")
+}
 
 
 
