@@ -311,21 +311,35 @@
 
 //Perfect number
 
-let number=8128
-let sum=0
+// let number=8128
+// let sum=0
 
-for(let i=1;i<number;i++){
-    if(number%i==0){
-        sum=sum+i
+// for(let i=1;i<number;i++){
+//     if(number%i==0){
+//         sum=sum+i
+//     }
+// }
+// console.log(sum,number)
+
+// if(sum==number){
+//     console.log("true")
+// }
+// else{
+//     console.log("false")
+// }
+
+let pass="Abcd12@"
+
+for(let x of pass){
+    let code =x.charCodeAt(0)
+    console.log(code)
+    if((code >= 65 && code <= 90) || (code >= 97 && code <= 122) || code >= 48 && code <= 57 || code >=33 && code <=47 )
+    {
+        console.log("true")
     }
-}
-console.log(sum,number)
-
-if(sum==number){
-    console.log("true")
-}
-else{
-    console.log("false")
+    else{
+        console.log("false")
+    }
 }
 
 
