@@ -328,20 +328,51 @@
 //     console.log("false")
 // }
 
+// let pass="Abcd12@"
+
+// for(let x of pass){
+//     let code =x.charCodeAt(0)
+//     console.log(code)
+//     if((code >= 65 && code <= 90) || (code >= 97 && code <= 122) || code >= 48 && code <= 57 || code >=33 && code <=47 )
+//     {
+//         console.log("true")
+//     }
+//     else{
+//         console.log("false")
+//     }
+// }
+
+//password check
 let pass="Abcd12@"
 
+let hasUpper=false;
+let haslower=false;
+let symbol=false;
+let number=false;
+
 for(let x of pass){
-    let code =x.charCodeAt(0)
-    console.log(code)
-    if((code >= 65 && code <= 90) || (code >= 97 && code <= 122) || code >= 48 && code <= 57 || code >=33 && code <=47 )
+
+    if("abcdefghijklmnopqrstuvwxyz".includes(x) ) 
     {
-        console.log("true")
+        haslower= true
+    }
+    else if("QWERTYUIOPASDFGHJKLZXCVBNM".includes(x)){
+        hasUpper= true
+    }
+    else if("!@#$%^&*()".includes(x)){
+        symbol= true
     }
     else{
-        console.log("false")
+       number=true
     }
 }
 
+if(hasUpper && haslower && symbol &&number){
+    console.log("true")
+}
+else{
+    console.log("false")
+}
 
 
 
