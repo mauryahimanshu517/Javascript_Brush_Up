@@ -343,36 +343,57 @@
 // }
 
 //password check
-let pass="Abcd12@"
+// let pass="Abcd12@"
 
-let hasUpper=false;
-let haslower=false;
-let symbol=false;
-let number=false;
+// let hasUpper=false;
+// let haslower=false;
+// let symbol=false;
+// let number=false;
 
-for(let x of pass){
+// for(let x of pass){
 
-    if("abcdefghijklmnopqrstuvwxyz".includes(x) ) 
-    {
-        haslower= true
-    }
-    else if("QWERTYUIOPASDFGHJKLZXCVBNM".includes(x)){
-        hasUpper= true
-    }
-    else if("!@#$%^&*()".includes(x)){
-        symbol= true
-    }
-    else{
-       number=true
-    }
-}
+//     if("abcdefghijklmnopqrstuvwxyz".includes(x) ) 
+//     {
+//         haslower= true
+//     }
+//     else if("QWERTYUIOPASDFGHJKLZXCVBNM".includes(x)){
+//         hasUpper= true
+//     }
+//     else if("!@#$%^&*()".includes(x)){
+//         symbol= true
+//     }
+//     else{
+//        number=true
+//     }
+// }
 
-if(hasUpper && haslower && symbol &&number){
-    console.log("true")
-}
-else{
-    console.log("false")
-}
+// if(hasUpper && haslower && symbol &&number){
+//     console.log("true")
+// }
+// else{
+//     console.log("false")
+// }
+
+//multiplication of matrix not done
+
+// let x=[
+//     [2,3],
+//     [3,4]
+// ]
+
+// let y=[
+//     [3,4],
+//     [4,5]
+// ]
+
+// let c=[[a,b],[c,d]]
+
+// for(let i=0;i<2;i++){
+//     for(let j=0;j<2;j++){
+//         c[i][j]=x[i][j]*y[i][j]
+//     }
+// }
+
 
 
 
