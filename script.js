@@ -395,6 +395,37 @@
 // }
 
 
+//tip percentage
+// let amount=1000
+// let percentage=Number(prompt("enter how much percentage tip you  want to give "))
+
+// let formula=(amount/100)*percentage
+
+
+// console.log(formula)
+
+// checking correct symbole of closing and opening
+
+
+let symbol = "[{}]"
+let isvalid=false
+let storeInArrary = [...symbol ]
+for (let i = 0; i < (symbol.length)/2; i++) {
+    for (let j = 1 + i; j > i; j--) {
+        if (!(storeInArrary[i] === storeInArrary[storeInArrary.length - j])) {
+             isvalid=true
+        }
+        else{
+            isvalid=false
+            break
+        }
+    }
+}
+
+console.log(isvalid)
+
+
+
 
 
 
